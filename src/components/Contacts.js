@@ -19,9 +19,6 @@ function Contacts() {
         >
           <i className="fab fa-linkedin"></i> LinkedIn
         </a>
-        <a href="mailto:taha.cini@outlook.com">
-          <i className="far fa-envelope"></i> taha.cini@outlook.com
-        </a>
         <a
           href="https://www.facebook.com/cinitaha/"
           target={"_blank"}
@@ -36,6 +33,7 @@ function Contacts() {
         >
           <i className="fab fa-instagram"></i> Instagram
         </a>
+        <a href="mailto:taha.cini@outlook.com">taha.cini@outlook.com</a>
       </div>
     </section>
   );
