@@ -471,3 +471,9 @@ a {
     text-align: left;
   }
 }
+
+@media (max-width: 40em) {
+  .hero-text {
+    padding-bottom: 2.5em;
+  }
+}
