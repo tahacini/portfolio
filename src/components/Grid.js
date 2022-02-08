@@ -3,19 +3,17 @@ import React, { useState } from "react";
 function Grid({ foto, name, live, code }) {
   const [display, setDisplay] = useState("none");
 
-  const showBox = (e) => {
-    e.preventDefault();
+  const showBox = () => {
     setDisplay("box");
   };
 
-  const hideBox = (e) => {
-    e.preventDefault();
+  const hideBox = () => {
     setDisplay("none");
   };
 
   return (
     <div>
-      <div onMouseEnter={(e) => showBox(e)} onMouseLeave={(e) => hideBox(e)}>
+      <div onMouseEnter={() => showBox()} onMouseLeave={() => hideBox()}>
         <div className={display}>
           <a
             href={live}
@@ -36,7 +34,7 @@ function Grid({ foto, name, live, code }) {
         </div>
         <a href={live} target={"_blank"} rel="noopener noreferrer">
           <img
-            className={display === "box" ? "zoom" : ""}
+            className={display === "box" ? "zoom" : "unzoom"}
             src={foto}
             alt="Some of my projects"
           />

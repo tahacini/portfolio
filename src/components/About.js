@@ -7,8 +7,8 @@ function About() {
       <div className="fs-550 text-shadow bottom">Who is this?</div>
       <div className="grid about-container">
         <div className="fs-600 about-bg text-shadow">
-          Hi, this is TAHA, I am a front-end developer and my job is build the
-          web for YOU{" "}
+          Hi, this is Taha, I am a Front-end developer and my job is build the
+          web for You{" "}
         </div>
         <div className="foto">
           <img src={myfoto} alt="my foto" />

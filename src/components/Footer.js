@@ -7,7 +7,13 @@ function Footer() {
       <div className="footer-text">
         <div>Designed & Built by Taha Cini </div>
         <div className="logo-small">
-          <img src={logo} alt="my logo" />
+          <a
+            href="https://github.com/tahacini"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={logo} alt="my logo" />
+          </a>
         </div>
       </div>
     </footer>

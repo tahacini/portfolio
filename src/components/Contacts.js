@@ -33,6 +33,7 @@ function Contacts() {
         >
           <i className="fab fa-instagram"></i> Instagram
         </a>
+        <br />
         <a href="mailto:taha.cini@outlook.com">taha.cini@outlook.com</a>
       </div>
     </section>

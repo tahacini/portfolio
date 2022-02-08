@@ -3,9 +3,9 @@ import fort from "../img/fort.png";
 import todo from "../img/todo.png";
 import drum from "../img/drum.png";
 import clock from "../img/clock.png";
-import quote from "../img/quote.png";
-import markdown from "../img/markdown.png";
 import clone from "../img/clone.png";
+import news from "../img/news.png";
+import portfolio from "../img/portfolio.png";
 
 function Works() {
   return (
@@ -13,10 +13,28 @@ function Works() {
       <div className="fs-550 work-title text-shadow bottom">
         Some of my works
       </div>
-      <div className="grid grid-foto">
+      <div className="grid grid-foto box-shadow">
+        <Grid
+          foto={news}
+          name={"<Topic News />"}
+          live={"https://topicnews.netlify.app/"}
+          code={"https://github.com/tahacini/topic-news"}
+        />
+        <Grid
+          foto={portfolio}
+          name={"<Portfolio Page />"}
+          live={""}
+          code={"https://github.com/tahacini/portfolio"}
+        />
+        <Grid
+          foto={clone}
+          name={"<Clone Sites />"}
+          live={"https://monster-mat.glitch.me"}
+          code={"https://github.com/tahacini/clone-sites"}
+        />
         <Grid
           foto={fort}
-          name={"<Fortnite Api App />"}
+          name={"<Fortnite App />"}
           live={"https://fortnite-api-app.netlify.app/"}
           code={"https://github.com/tahacini/fortnite-api-app"}
         />
@@ -27,34 +45,16 @@ function Works() {
           code={"https://github.com/tahacini/todo-app"}
         />
         <Grid
-          foto={clone}
-          name={"<Clone Sites />"}
-          live={"https://monster-mat.glitch.me"}
-          code={"https://github.com/tahacini/clone-sites"}
-        />
-        <Grid
-          foto={quote}
-          name={"<Quote App />"}
-          live={"https://bedecked-intriguing-cephalopod.glitch.me/"}
-          code={"https://github.com/tahacini/random-quote-machine"}
+          foto={drum}
+          name={"<Drum App />"}
+          live={"https://meadow-elite-mass.glitch.me/"}
+          code={"https://github.com/tahacini/drum-machine"}
         />
         <Grid
           foto={clock}
           name={"<Clock App />"}
           live={"https://abaft-water-clutch.glitch.me/"}
           code={"https://github.com/tahacini/clock"}
-        />
-        <Grid
-          foto={markdown}
-          name={"<Markdown App />"}
-          live={"https://reflective-ninth-club.glitch.me/"}
-          code={"https://github.com/tahacini/markdown-previewer"}
-        />
-        <Grid
-          foto={drum}
-          name={"<Drum App />"}
-          live={"https://meadow-elite-mass.glitch.me/"}
-          code={"https://github.com/tahacini/drum-machine"}
         />
         <div>
           <div className="grid show-all fs-500">
