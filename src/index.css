@@ -329,7 +329,7 @@ a {
 }
 
 .contacts a:hover {
-  transform: scale(1.01);
+  transform: scale(1.005);
   transition: 0.3s ease-out;
 }
 
@@ -458,7 +458,7 @@ a {
   }
 
   .project:hover {
-    transform: scale(1.01);
+    transform: scale(1.005);
     transition: 0.3s ease-out;
   }
 
@@ -472,7 +472,7 @@ a {
   }
 
   .project-code:hover {
-    transform: scale(1.01);
+    transform: scale(1.005);
     transition: 0.3s ease-out;
   }
 }
