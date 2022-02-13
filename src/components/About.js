@@ -14,9 +14,9 @@ function About() {
           <img src={myfoto} alt="my foto" />
         </div>
         <div className="fs-300 about-text text-shadow">
-          I love building good looking things that I can see, that’s why I
-          become a Front-end Developer. I work around to build pixel perfect and
-          smooth pages.
+          I love building good looking things that I would like to see, that’s
+          why I become a Front-end Web Developer. I work around to build pixel
+          perfect and smooth pages.
         </div>
       </div>
     </section>
