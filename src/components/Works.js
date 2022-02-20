@@ -2,7 +2,7 @@ import Grid from "./Grid";
 import fort from "../img/fort.png";
 import todo from "../img/todo.png";
 import calculator from "../img/calculator.png";
-import clock from "../img/clock.png";
+import weather from "../img/weather.png";
 import clone from "../img/clone.png";
 import news from "../img/news.png";
 import portfolio from "../img/portfolio.png";
@@ -14,6 +14,12 @@ function Works() {
         Some of my works
       </div>
       <div className="grid grid-foto box-shadow">
+        <Grid
+          foto={weather}
+          name={"< Weather App />"}
+          live={"https://nowweathers.netlify.app/"}
+          code={"https://github.com/tahacini/weather-app"}
+        />
         <Grid
           foto={news}
           name={"< Topic News />"}
@@ -27,16 +33,16 @@ function Works() {
           code={"https://github.com/tahacini/portfolio"}
         />
         <Grid
-          foto={clone}
-          name={"< Clone Sites />"}
-          live={"https://monster-mat.glitch.me"}
-          code={"https://github.com/tahacini/clone-sites"}
-        />
-        <Grid
           foto={fort}
           name={"< Fortnite App />"}
           live={"https://fortnite-api-app.netlify.app/"}
           code={"https://github.com/tahacini/fortnite-api-app"}
+        />
+        <Grid
+          foto={clone}
+          name={"< Clone Sites />"}
+          live={"https://monster-mat.glitch.me"}
+          code={"https://github.com/tahacini/clone-sites"}
         />
         <Grid
           foto={todo}
@@ -49,12 +55,6 @@ function Works() {
           name={"< Calculator />"}
           live={"https://apricot-marvelous-sweater.glitch.me/"}
           code={"https://github.com/tahacini/javaScript-calculator"}
-        />
-        <Grid
-          foto={clock}
-          name={"< 25 + 5 Clock />"}
-          live={"https://abaft-water-clutch.glitch.me/"}
-          code={"https://github.com/tahacini/clock"}
         />
         <div>
           <div className="grid show-all fs-500">
