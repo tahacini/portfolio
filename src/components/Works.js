@@ -1,7 +1,7 @@
 import Grid from "./Grid";
 import fort from "../img/fort.png";
 import todo from "../img/todo.png";
-import calculator from "../img/calculator.png";
+import expense from "../img/expense.png";
 import weather from "../img/weather.png";
 import clone from "../img/clone.png";
 import news from "../img/news.png";
@@ -15,6 +15,12 @@ function Works() {
       </div>
       <div className="grid grid-foto box-shadow">
         <Grid
+          foto={expense}
+          name={"< Expense Tracker />"}
+          live={"https://my-expens-tracker.netlify.app/"}
+          code={"https://github.com/tahacini/expense-tracker"}
+        />
+        <Grid
           foto={weather}
           name={"< Weather App />"}
           live={"https://nowweathers.netlify.app/"}
@@ -27,22 +33,16 @@ function Works() {
           code={"https://github.com/tahacini/topic-news"}
         />
         <Grid
-          foto={portfolio}
-          name={"< Portfolio Page />"}
-          live={""}
-          code={"https://github.com/tahacini/portfolio"}
-        />
-        <Grid
-          foto={fort}
-          name={"< Fortnite App />"}
-          live={"https://fortnite-api-app.netlify.app/"}
-          code={"https://github.com/tahacini/fortnite-api-app"}
-        />
-        <Grid
           foto={clone}
           name={"< Clone Sites />"}
           live={"https://monster-mat.glitch.me"}
           code={"https://github.com/tahacini/clone-sites"}
+        />
+        <Grid
+          foto={portfolio}
+          name={"< Portfolio Page />"}
+          live={""}
+          code={"https://github.com/tahacini/portfolio"}
         />
         <Grid
           foto={todo}
@@ -51,10 +51,10 @@ function Works() {
           code={"https://github.com/tahacini/todo-app"}
         />
         <Grid
-          foto={calculator}
-          name={"< Calculator />"}
-          live={"https://apricot-marvelous-sweater.glitch.me/"}
-          code={"https://github.com/tahacini/javaScript-calculator"}
+          foto={fort}
+          name={"< Fortnite App />"}
+          live={"https://fortnite-api-app.netlify.app/"}
+          code={"https://github.com/tahacini/fortnite-api-app"}
         />
         <div>
           <div className="grid show-all fs-500">

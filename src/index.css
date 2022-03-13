@@ -481,6 +481,10 @@ a {
   .hero {
     text-align: left;
   }
+
+  .mobile-none {
+    display: none;
+  }
 }
 
 @media (max-width: 40em) {

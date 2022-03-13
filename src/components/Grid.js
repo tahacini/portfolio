@@ -14,7 +14,7 @@ function Grid({ foto, name, live, code }) {
   return (
     <div>
       <div onMouseEnter={() => showBox()} onMouseLeave={() => hideBox()}>
-        <div className={display}>
+        <div className={`${display} mobile-none`}>
           <a
             href={live}
             target={"_blank"}
